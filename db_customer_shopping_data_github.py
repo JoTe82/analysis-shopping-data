@@ -64,6 +64,6 @@ else:
 print(f"{'Datenüberprüfung abgeschlossen':*<60}")
 
 """
-Eine überprüfung des Datensatzes war fehlerfrei. Deshalb ist
+Die Überprüfung des Datensatzes war fehlerfrei. Deshalb ist
 eine Datenbereinigung nicht notwendig.
 """
