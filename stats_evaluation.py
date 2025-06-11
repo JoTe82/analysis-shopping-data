@@ -43,7 +43,7 @@ def stats(dataset):
 
     # creating a new DataFrame from the Series
     # setting an Index for the rows
-    index_rows_df = ["median","mode","span"]
+    index_rows_df = ["median","mode","range"]
     stat_two = pd.DataFrame([median,mode,span], index=index_rows_df)
 
     # connect both DataFrame with concat
