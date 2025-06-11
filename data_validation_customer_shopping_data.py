@@ -34,7 +34,7 @@ print()
 print_spaced(data.describe(include="all"))
 
 # convert column names to a list
-column_titles = data.columns.tolist()
+column_titles = data.columns.to_list()
 print_spaced(column_titles)
 
 # count values in each column (descending) to detect anomalies
