@@ -53,7 +53,7 @@ for i in mall:
     print_spaced(mall_df)
     # mall_df.to_excel(str(i)+"_stats_customer_shopping_data.xlsx")
 
-# Findings: the mode of the variables age, quantity, and price varies across all shopping malls
+# Findings so far: the mode of the variables age, quantity, and price varies across all shopping malls
 # therefore, separate histograms will be created for each shopping center to visually compare these differences
 
 # to provide a baseline for comparison, the modes of the entire dataset are visualized first
