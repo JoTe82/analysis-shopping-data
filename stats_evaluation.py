@@ -18,7 +18,7 @@ def stats(dataset):
     # statistical analysis of all columns with quantitative values
     stat = pd.DataFrame(dataset.describe())
 
-    # calculation of all missing statistical values - median, mode u span
+    # calculation of all missing statistical values - median, mode and range(span)
     list_columns = dataset.select_dtypes(include=[int,float]).columns.to_list() 
     list_median = []
     list_mode = []
