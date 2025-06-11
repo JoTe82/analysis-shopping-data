@@ -53,10 +53,10 @@ for i in mall:
     print_spaced(mall_df)
     # mall_df.to_excel(str(i)+"_stats_customer_shopping_data.xlsx")
 
-# the mode for age, quantity and price differs per shopping mall
-# therefore, the mode is visualized via histogram for each shopping center
-# to check how much they differ
-# visualization of modes for the entire dataset
+# Findings: the mode of the variables age, quantity, and price varies across all shopping malls
+# therefore, separate histograms will be created for each shopping center to visually compare these differences
+
+# to provide a baseline for comparison, the modes of the entire dataset are visualized first
 figur, achsen = plt.subplots(1,3, figsize=(24, 6), squeeze=False)
 figur.suptitle("Histograms of the “age”, “quantity” and “price” column for the entire dataset")
 index = 0
