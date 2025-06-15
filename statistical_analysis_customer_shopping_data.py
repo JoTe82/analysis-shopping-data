@@ -42,7 +42,7 @@ print_spaced("The DataFrame was sorted ascending by the column \'invoice_date'."
 print_spaced(data)
 
 # split DataFrame into three, based on the years 2021, 2022 and 2023
-# output of the two ne created DataFrames
+# output of the three created DataFrames
 data_2021 = data[data["invoice_date"].dt.year == 2021]
 print_spaced(data_2021)
 data_2022 = data[data["invoice_date"].dt.year == 2022]
@@ -50,7 +50,7 @@ print_spaced(data_2022)
 data_2023 = data[data["invoice_date"].dt.year == 2023]
 print_spaced(data_2023)
 
-# a for-loop to analyze the DataFrames for 2021 and 2022
+# a for-loop to analyze the DataFrames for the years 2021, 2022 and 2023
 # first, creating a list, then start the loop
 list_dataframes = [data_2021, data_2022, data_2023]
 current_year = 2021
@@ -67,7 +67,7 @@ for df in list_dataframes:
     print_spaced(data_year.corr(numeric_only=True))
 
     # creating a DataFrame with statistical analysis for the entire dataset
-    # Output of the statistical analysis to illustrate which evaluation is carried out
+    # output of the statistical analysis to illustrate which evaluation is carried out
     stats_entire = stats_evaluation.stats(data_year)
     print("The statistical analysis for the entire dataset:")
     stats_entire["shopping_mall"] = "Entire Dataset"
@@ -90,8 +90,8 @@ for df in list_dataframes:
 
     mall_summary = pd.concat(result)
     data_combined = pd.concat([stats_entire,mall_summary])
-    data_combined.to_excel("Summary_stats_customer_shopping_data_Year_"+str(current_year)+".xlsx")
+    data_combined.to_excel("summary_stats_customer_shopping_data_year_"+str(current_year)+".xlsx")
 
     current_year = current_year + 1
 
-print(f"{'The statistical analysis was saved in Excel sheets and is ready for further evaluation':*<100}")
+print(f"{'The statistical analysis was saved in Excel sheets and is ready for further evaluations':*<100}")
