@@ -60,9 +60,6 @@ for df in list_dataframes:
     print("The statistical analysis for the year "+ str(current_year) + " beginns:")
     print()
 
-    # dropping the column "invoice_date"
-    data_year = data_year.drop(["invoice_date"], axis=1)
-
     # looking for correlations
     print_spaced(data_year.corr(numeric_only=True))
 
