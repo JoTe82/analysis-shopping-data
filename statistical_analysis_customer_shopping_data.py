@@ -50,6 +50,11 @@ print_spaced(data_2022)
 data_2023 = data[data["invoice_date"].dt.year == 2023]
 print_spaced(data_2023)
 
+# saving of all three new created DataFrames
+data_2021.to_csv("customer_shopping_data_year_2021.csv")
+data_2022.to_csv("customer_shopping_data_year_2022.csv")
+data_2023.to_csv("customer_shopping_data_year_2023.csv")
+
 # a for-loop to analyze the DataFrames for the years 2021, 2022 and 2023
 # first, creating a list, then start the loop
 list_dataframes = [data_2021, data_2022, data_2023]
