@@ -36,8 +36,7 @@ for further analysis as part of a data wrangling process. The dataset was then a
 
 ## Link / Lizenz 
 The dataset used, "Customer Shopping Dataset – Retail Sales Data",  was obtained from the platform Kaggle.com.
-The dataset is licensed under the Creative Commons CC0 1.0 Universal (Public Domain Dedication) license.  
-The authors have waived all copyright and related rights to this data.
+The dataset is licensed under the Creative Commons CC0 1.0 Universal (Public Domain Dedication) license. The authors have waived all copyright and related rights to this data.
 
 Licence: https://creativecommons.org/publicdomain/zero/1.0/deed.en<br>
 Story: https://public.tableau.com/views/AnalysisofretailshoppingdatafromIstanbul-Story/AnalysisofretailshoppingdatafromIstanbul-Story?:language=de-DE&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
