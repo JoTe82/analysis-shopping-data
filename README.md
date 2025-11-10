@@ -23,12 +23,12 @@ for further analysis as part of a data wrangling process. The dataset was then a
   - Tableau
 
   ### What results does the analysis and its visualization provide?
-  - total number of sales and overall transactions of all shopping malls
-  - the sales performance of each category
-  - which payment method was mostly preferred
-  - the monthly development of sales per shopping mall
-  - collection of demographic characteristics of customers
-  - key findings
+  - Total number of sales and overall transactions of all shopping malls
+  - The sales performance of each category
+  - Which payment method was mostly preferred
+  - The monthly development of sales per shopping mall
+  - Collection of demographic characteristics of customers
+  - Key findings
 
 ## Story
 
